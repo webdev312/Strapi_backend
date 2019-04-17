@@ -1,0 +1,27 @@
+{
+  "connection": "default",
+  "collectionName": "testflow01S",
+  "info": {
+    "name": "testflow01",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "comment": ""
+  },
+  "attributes": {
+    "Title": {
+      "default": "",
+      "type": "string"
+    },
+    "Description": {
+      "default": "",
+      "type": "string"
+    },
+    "BtnText": {
+      "default": "",
+      "type": "string"
+    }
+  }
+}

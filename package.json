@@ -1,5 +1,5 @@
 {
-  "name": "deploy_backend",
+  "name": "backend",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application.",
@@ -20,10 +20,9 @@
   },
   "dependencies": {
     "lodash": "^4.17.5",
-    "strapi": "3.0.0-alpha.26",
-    "strapi-utils": "3.0.0-alpha.26",
-    "strapi-hook-bookshelf": "3.0.0-alpha.26",
-    "strapi-hook-knex": "3.0.0-alpha.26",
+    "strapi": "3.0.0-alpha.25.2",
+    "strapi-hook-bookshelf": "3.0.0-alpha.25.2",
+    "strapi-hook-knex": "3.0.0-alpha.25.2",
     "knex": "latest",
     "sqlite3": "latest"
   },
@@ -41,7 +40,7 @@
   ],
   "strapi": {
     "packageManager": "npm",
-    "uuid": "2e7a15be-94eb-4d69-a4b7-e95e3ef00a19"
+    "uuid": "8ec0e3bf-6a6e-4453-b1a2-6301012df8cc"
   },
   "engines": {
     "node": ">= 10.0.0",

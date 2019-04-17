@@ -11,12 +11,11 @@ import Button from 'components/Button';
 import Brush from '../../assets/images/paint_brush.svg';
 import styles from './styles.scss';
 
-/* istanbul ignore next */
 class EmptyContentTypeView extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
       <div className={styles.emptyContentTypeView}>
-        <img src={Brush} alt="brush" />
+        <img src={Brush} alt="" />
         <div>
           <FormattedMessage id="content-type-builder.home.emptyContentType.title">
             {(title) => <div className={styles.title}>{title}</div>}
